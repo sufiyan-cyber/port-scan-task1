@@ -1,0 +1,47 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-23 23:01 India Standard Time
+Nmap scan report for 192.168.0.1
+Host is up (0.038s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: F0:A7:31:EA:E5:06 (TP-Link Limited)
+
+Nmap scan report for 192.168.0.100
+Host is up (0.026s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 34:94:54:86:DB:93 (Espressif)
+
+Nmap scan report for 192.168.0.102
+Host is up (0.021s latency).
+All 1000 scanned ports on 192.168.0.102 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: D6:24:C5:11:26:2F (Unknown)
+
+Nmap scan report for 192.168.0.104
+Host is up (0.035s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 36:C6:DF:54:4F:E1 (Unknown)
+
+Nmap scan report for 192.168.0.105
+Host is up (0.0092s latency).
+All 1000 scanned ports on 192.168.0.105 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 30:A9:DE:EF:F3:87 (LG Innotek)
+
+Nmap scan report for 192.168.0.103
+Host is up (0.0036s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 15.97 seconds
